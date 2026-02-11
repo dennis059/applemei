@@ -27,8 +27,9 @@ Things like:
 
 ### TTS
 
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
+- 偏好語音：`zh-TW-HsiaoChenNeural` (設定為 OFF，僅在需要時手動調用)
+- 設定日期：2026-02-10 (22:58 更新為純文字模式)
+- 服務提供者：Edge TTS (目前已關閉自動模式)
 ```
 
 ## Why Separate?
