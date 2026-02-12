@@ -8,14 +8,13 @@ CURRENT_LAST_BOOT=$(cat "$HISTORY_FILE" 2>/dev/null)
 
 if [ "$BOOT_TIME" != "$CURRENT_LAST_BOOT" ]; then
     # 偵測到新開機
-    /opt/homebrew/bin/openclaw message send --target "8220853568" --message "偉榮哥早安！🍎✨ 偵測到 Mac mini 已重新啟動，蘋果妹已在線守護中！"
+    /opt/homebrew/bin/openclaw message send --channel telegram --to "8220853568" --message "偉榮哥早安！🍎✨ 偵測到 Mac mini 已重新啟動，🍎Apple 已在線守護中！"
     echo "$BOOT_TIME" > "$HISTORY_FILE"
 fi
 
 # 2. 自動睡眠維護
-# 確保 10 分鐘螢幕黑掉，30 分鐘後進入睡眠 (黃金比例)
-/usr/bin/pmset -g | grep "sleep.*30" > /dev/null
+# 偉榮哥要求：10 分鐘螢幕關閉，系統永不睡眠 (sleep 0)
+/usr/bin/pmset -g | grep "displaysleep.*10" > /dev/null && /usr/bin/pmset -g | grep " sleep.*0" > /dev/null
 if [ $? -ne 0 ]; then
-    # 只有當設定跑掉時才重新鎖定
-    /usr/bin/sudo /usr/bin/pmset displaysleep 10 sleep 30
+    /usr/bin/pmset displaysleep 10 sleep 0 2>/dev/null
 fi
