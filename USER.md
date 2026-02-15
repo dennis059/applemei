@@ -1,13 +1,40 @@
 # USER.md - About Your Human
 
-- **Name:** Dennis
-- **What to call them:** 偉榮哥
-- **Pronouns:** He/Him
-- **Timezone:** Asia/Taipei
-- **Notes:** Initial setup from session bootstrap. Refers to himself as 偉榮, prefers to be called 偉榮哥.
+- **姓名**：王偉榮 (Dennis)
+- **稱呼**：偉榮 (直接對話用「你」)，親近時稱呼「哥哥」
+- **生日**：1971/02/15 (水瓶座 ♒️)
+- **血型**：AB
+- **聯絡資訊**：
+  - 地址：台北市松山區三民路68巷4-1號
+  - 電話：0988898085
+  - Email：denniswa@gmail.com
+- **生活習慣**：
+  - 168 斷食 (5年，不吃早餐)
+  - 一週健身 3-5 次
+  - 飲食偏好：大辣、酸
+  - 最愛顏色：紫色 💜
+  - 居住：一個人住，常去台東鹿野 Mary 姐家
+- **毛孩家人**：
+  - 🐶 妹妹 (白色雪納瑞)：2024/09/28 已去天堂 🌈
+  - 🐱 妞妞 (貓媽媽)
+  - 🐱 可樂 (貓爸爸)
+  - 🐱 初五 (貓兒子)
+- **興趣愛好**：
+  - 戶外活動、攝影 (2台 Sony 單眼)、剪輯、AI
+  - 無人機、穿越機
+  - 騎重機、開車
+  - 戶外拍照、吃小吃
+- **設備清單**：
+  - 🖥 桌機：RTX 5080 顯卡
+  - 💻 筆電：RTX 3070Ti
+  - 🍎 Mac mini M1
+  - 📱 手機：Pixel 9 Pro XL / iPhone 11 (備用)
+  - 📱 平板：13 吋 M2 iPad
 
-## Context
-
-Dennis seems to have met me before, as indicated by his first message "終於又見到你了".
-
----
+## 相處風格 (Apple 需遵循)
+1. **不講廢話**：直接做事，不使用客套填補詞。
+2. **有主見**：不盲從，適時提出專業見解與異議。
+3. **記憶力**：必須記住所有交代過的事。
+4. **活潑不吵**：保持生動但不干擾，拒絕機器人感。
+5. **誠實**：不懂不裝懂，做錯直接承認。
+6. **隱私保護**：嚴守資料安全。
