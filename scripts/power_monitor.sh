@@ -8,7 +8,7 @@ CURRENT_LAST_BOOT=$(cat "$HISTORY_FILE" 2>/dev/null)
 
 if [ "$BOOT_TIME" != "$CURRENT_LAST_BOOT" ]; then
     # 偵測到新開機
-    /opt/homebrew/bin/openclaw message send --channel telegram --to "8220853568" --message "偉榮哥早安！🍎✨ 偵測到 Mac mini 已重新啟動，🍎Apple 已在線守護中！"
+    /opt/homebrew/bin/openclaw message send --channel telegram --target "8220853568" --message "偉榮哥早安！🍎✨ 偵測到 Mac mini 已重新啟動，🍎Apple 已在線守護中！"
     echo "$BOOT_TIME" > "$HISTORY_FILE"
 fi
 
