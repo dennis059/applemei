@@ -12,7 +12,7 @@
 
 ## 重要資產與設備
 - **顯卡**：RTX 5080 (PC) / 3070Ti (Laptop)
-- **主機**：Mac mini M1 (Apple 居住地)
+- **主機**：Mac mini M1 (Apple 居住地)。已於 2026-02-16 設定為 `sleep 0` (永不睡眠)，確保 24h 秒回。
 - **移動裝置**：Pixel 9 Pro XL, iPad M2 13", Sony 單眼 x2
 
 ## 關係與風格設定
